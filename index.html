@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="so">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#160a10">
+  <meta name="description" content="Hadiyad dhalasho oo qalbi ka timid, loogu talagalay Rayan — 28 October.">
+  <title>Happy Birthday, Rayan ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true"><span class="loader-heart">♥</span><span>Wax qalbi ka yimid…</span></div>
+  <div class="reading-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bilowga bogga">R<span>♥</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Fur liiska">☰</button>
+    <nav id="site-nav" class="site-nav" aria-label="Liiska bogga">
+      <a href="#letter">Warqadda</a><a href="#countdown">Tirinta</a><a href="#memories">Xusuusaha</a><a href="#reasons">Sababaha</a><a href="#cake">Hadiyad</a>
+    </nav>
+    <button class="music-toggle" id="music-toggle" aria-label="Daar muusigga" title="Daar ama hakad geli muusigga"><span class="music-icon">♫</span><span id="music-label">Muusig</span><span class="equalizer" aria-hidden="true"><i></i><i></i><i></i></span></button>
+  </header>
+
+  <main>
+    <section class="hero section-dark" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow"></div><div class="hero-stars" aria-hidden="true"></div><div class="petal-field" data-petals="18" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow fade-up">Maalin qurux badan • 28 October</p>
+        <div class="hero-emblem" aria-hidden="true"><span>♥</span><b>✦</b></div>
+        <h1 id="hero-title" class="script-title fade-up">Happy Birthday,<br><span>Rayan</span> <i>♥</i></h1>
+        <p class="hero-date fade-up">28 October <span>—</span> Maalintii uu dunidu heshay qof gaar ah.</p>
+        <p class="hero-small fade-up">Maanta waa maalintaada, quruxdayda. 🌹</p>
+        <a class="button button-gold fade-up" href="#letter" id="gift-button">Fur Hadiyaddaada, Rayan <span>💌</span></a>
+        <p class="hero-hint">Waxaa kuu diyaarsan wax yar oo qalbi ka yimid. ❤️</p>
+      </div>
+      <a class="scroll-cue" href="#letter" aria-label="U gudub warqadda"><span></span></a>
+    </section>
+
+    <section class="letter-section section-pad" id="letter" aria-labelledby="letter-title">
+      <div class="section-heading"><p class="eyebrow">Erayo qalbi ka yimid</p><h2 id="letter-title">Warqad <em>Jacayl</em></h2><p>Qoraal yar oo dareen weyn xambaarsan.</p></div>
+      <div class="letter-intro" id="letter-intro"><div class="envelope-visual" aria-hidden="true"><span class="envelope-flap"></span><span class="envelope-seal">♥</span></div><p>Rayan, warqad yar ayaan qalbigayga kaaga qoray...</p><button class="button button-red" id="open-letter">Fur Warqaddaada ❤️</button></div>
+      <article class="letter-paper" id="letter-paper" aria-live="polite" hidden>
+        <div class="paper-ornament">❧</div>
+        <h3>Warqad Jacayl oo loogu talagalay Rayan ❤️</h3>
+        <div class="letter-copy" id="letter-copy"></div>
+        <p class="letter-signoff">— Qofka kuu rajaynaya farxad aan dhammaan ❤️</p>
+        <button class="text-button" id="replay-letter">↻ Dib u akhri warqadda</button>
+      </article>
+      <p class="after-letter" id="after-letter" hidden>Warqaddan qalbigayga ayay ka timid, Rayan. ❤️</p>
+      <button class="text-button reopen-letter" id="reopen-letter" hidden>Fur warqadda mar kale 💌</button>
+    </section>
+
+    <section class="countdown-section section-dark section-pad" id="countdown" aria-labelledby="countdown-title">
+      <div class="countdown-orb" aria-hidden="true">♥</div>
+      <div class="section-heading light"><p class="eyebrow">Maalin mudan in la xuso</p><h2 id="countdown-title">Tirinta <em>Dhalashada</em></h2><p>Ilbiriqsi kasta wuxuu kuu soo dhoweynayaa maalin gaar ah.</p></div>
+      <div class="countdown-box" id="countdown-box" aria-live="polite">
+        <div class="count-unit"><strong id="days">00</strong><span>Maalmo</span></div><b class="count-colon">:</b>
+        <div class="count-unit"><strong id="hours">00</strong><span>Saacado</span></div><b class="count-colon">:</b>
+        <div class="count-unit"><strong id="minutes">00</strong><span>Daqiiqado</span></div><b class="count-colon">:</b>
+        <div class="count-unit"><strong id="seconds">00</strong><span>Ilbiriqsi</span></div>
+      </div>
+      <p class="birthday-today" id="birthday-today" hidden>MAANTA WAA MAALINTAADA, RAYAN! 🎉❤️</p>
+      <p class="countdown-note">Si kasta oo tirintu u socoto, maanta iyo maalin kasta waad qaali tahay. 🌹</p>
+    </section>
+
+    <section class="memories-section section-pad" id="memories" aria-labelledby="memories-title">
+      <div class="section-heading"><p class="eyebrow">Sawirro aad adigu ku dari karto</p><h2 id="memories-title">Xusuuso Qurux Badan <em>❤️📸</em></h2><p>Xusuusaha wanaagsan waa hadiyado qalbiga ku sii nool.</p></div>
+      <div class="gallery-grid" id="gallery-grid">
+        <button class="photo-card" data-index="0" aria-label="Fur sawirka koowaad"><span class="photo-placeholder"><span>Ku dar sawirkaaga</span><small>images/photo1.jpg</small></span><span class="photo-caption">Xusuus qurux badan ❤️</span></button>
+        <button class="photo-card" data-index="1" aria-label="Fur sawirka labaad"><span class="photo-placeholder"><span>Ku dar sawirkaaga</span><small>images/photo2.jpg</small></span><span class="photo-caption">Daqiiqado mudan in la xafido 🌹</span></button>
+        <button class="photo-card" data-index="2" aria-label="Fur sawirka saddexaad"><span class="photo-placeholder"><span>Ku dar sawirkaaga</span><small>images/photo3.jpg</small></span><span class="photo-caption">Quruxda ku jirta waxyaabaha yaryar ✨</span></button>
+        <button class="photo-card" data-index="3" aria-label="Fur sawirka afraad"><span class="photo-placeholder"><span>Ku dar sawirkaaga</span><small>images/photo4.jpg</small></span><span class="photo-caption">Bog kale oo xusuus mudan 💖</span></button>
+        <button class="photo-card" data-index="4" aria-label="Fur sawirka shanaad"><span class="photo-placeholder"><span>Ku dar sawirkaaga</span><small>images/photo5.jpg</small></span><span class="photo-caption">Maalin gaar ah, xusuus gaar ah 🎂</span></button>
+        <button class="photo-card" data-index="5" aria-label="Fur sawirka lixaad"><span class="photo-placeholder"><span>Ku dar sawirkaaga</span><small>images/photo6.jpg</small></span><span class="photo-caption">Xusuuso qalbiga ku nool 💌</span></button>
+      </div>
+      <div class="gallery-controls"><button class="round-button" id="gallery-prev" aria-label="Sawirkii hore">←</button><span id="gallery-position">Sawir 1 / 6</span><button class="round-button" id="gallery-next" aria-label="Sawirka xiga">→</button></div>
+      <p class="asset-note">Sawirradu hadda waa meelo bannaan oo loogu talagalay sawirradaada. Ku dar kuwaaga galka <code>images</code>.</p>
+    </section>
+
+    <section class="reasons-section section-pad section-blush" id="reasons" aria-labelledby="reasons-title">
+      <div class="section-heading"><p class="eyebrow">Lix arrimood oo qurux badan</p><h2 id="reasons-title">6 Sababood oo Aad Qaaska iigu Tahay,<br><em>Rayan ❤️🌹</em></h2><p>Mid kasta fur si aad u akhrido farriintiisa.</p></div>
+      <div class="reasons-grid" id="reasons-grid">
+        <button class="reason-card" aria-expanded="false"><span class="reason-number">01</span><span class="reason-icon">😊</span><strong>Dhoolla-caddayntaada</strong><span class="reason-message">Waxaa jira waxyaabo badan oo maalinta qurxiya, laakiin dhoolla-caddayntaadu waxay leedahay qurux u gaar ah. Waa mid xusuusinaysa in farxaddu mararka qaarkood ku jirto waxyaabaha yaryar.</span><span class="reason-more">Taabo si aad u furto +</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-number">02</span><span class="reason-icon">🌹</span><strong>Qalbigaaga Quruxda Badan</strong><span class="reason-message">Quruxda qofku kuma koobna muuqaalkiisa; waxay ku jirtaa qalbigiisa, naxariistiisa iyo sida uu dadka ula dhaqmo. Rayan, wanaagga qalbigaagu waa mid mudan in la qadariyo.</span><span class="reason-more">Taabo si aad u furto +</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-number">03</span><span class="reason-icon">💖</span><strong>Sida Aad Farxadda u Keento</strong><span class="reason-message">Mararka qaarkood, qof ayaa maalintaada ka dhigi kara mid ka duwan maalmaha kale isaga oo aan wax badan samayn. Waxaan rajaynayaa in noloshaadu mar walba ka buuxdo farxad la mid ah tan aad dadka kale siiso.</span><span class="reason-more">Taabo si aad u furto +</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-number">04</span><span class="reason-icon">👑</span><strong>Qofnimadaada Aan La Bedbeddeli Karin</strong><span class="reason-message">Waxa kaa dhigaya qof gaar ah ma aha inaad qof kale la mid noqoto, balse waa inaad tahay adiga. Rayan, shakhsiyaddaada, fikirkaaga iyo habkaaga gaarka ah ayaa mudan in la qadariyo.</span><span class="reason-more">Taabo si aad u furto +</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-number">05</span><span class="reason-icon">✨</span><strong>Xusuusaha Quruxda Badan</strong><span class="reason-message">Xusuusaha wanaagsan waa hanti qalbiga ku sii nool. Waqti kasta oo qurux badan oo la wadaago wuxuu noqon karaa bog kale oo sheeko qiimo leh ka mid ah.</span><span class="reason-more">Taabo si aad u furto +</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-number">06</span><span class="reason-icon">🦋</span><strong>Riyadaada iyo Mustaqbalkaaga</strong><span class="reason-message">Waxaan kuu rajaynayaa inaad gaarto riyo kasta oo wanaagsan oo qalbigaaga ku jirta. Waxaan rajaynayaa inaad mar walba ku faanto qofka aad tahay, kuna faraxdo qofka aad noqonayso.</span><span class="reason-more">Taabo si aad u furto +</span></button>
+      </div>
+      <div class="all-reasons-message" id="all-reasons-message" hidden><p>Rayan, ma aha inaan maanta oo keliya kuu sheego inaad qaali tahay. Waxaan rabaa inaad mar walba xusuusato inaad mudan tahay farxad, ixtiraam, naxariis iyo wax kasta oo wanaagsan. ❤️🌹</p><p>Dhalasho wacan, boqoradda maalintan quruxda badan. 28 October waa maalintaada, waana munaasabad mudan in si gaar ah loo xuso. 🎂💌</p></div>
+    </section>
+
+    <section class="cake-section section-pad" id="cake" aria-labelledby="cake-title">
+      <div class="section-heading"><p class="eyebrow">Hadiyad yar oo kuu gaar ah</p><h2 id="cake-title">Samee Rajadaada Quruxda Badan, <em>Rayan ✨</em></h2></div>
+      <div class="cake-wrap" aria-label="Keeg dhalasho leh saddex shumac oo shidan"><div class="cake-sparkle">✦</div><div class="candles"><span class="candle"><i></i></span><span class="candle"><i></i></span><span class="candle"><i></i></span></div><div class="cake-top"></div><div class="cake-layer layer-one"></div><div class="cake-layer layer-two"></div><div class="cake-plate"></div></div>
+      <button class="button button-red" id="wish-button">U Rajee Wax Qurux Badan 💖</button>
+      <p class="wish-message" id="wish-message" hidden>Ilaahay ha kuu rummeeyo riyooyinkaaga wanaagsan, Rayan. Sannadkan cusubna ha kuu noqdo mid farxad, guul iyo barako leh. ❤️🎂</p>
+    </section>
+
+    <section class="final-section section-dark section-pad" id="final" aria-labelledby="final-title">
+      <div class="final-particles" aria-hidden="true"></div><div class="petal-field" data-petals="14" aria-hidden="true"></div>
+      <div class="final-content"><p class="eyebrow">Erayadii ugu dambeeyay</p><h2 id="final-title" class="script-title">Rayan, Qof Qaali Ah Ayaad Tahay <i>❤️🌹</i></h2>
+        <div class="final-letter"><p>Maanta, 28 October, waa maalintaada gaarka ah.</p><p>Waxaan kuu rajaynayaa in bog kasta oo noloshaadu furmo uu xambaarsanaado farxad, in riyooyinkaagu ay kuu noqdaan xaqiiqo, iyo in mustaqbalkaagu noqdo mid ka qurux badan wax kasta oo aad maanta ku hammido.</p><p>Waqtigu wuu socon doonaa, sannaduhuna way is beddeli doonaan, laakiin rajada aan kuu qabo waxay mar walba ahaan doontaa inaad hesho nolol wanaagsan, qalbi deggan, caafimaad iyo farxad.</p><p>Rayan, maanta naftaada u dabaaldeg. Ku farax qofka aad tahay, kuna faan safarka aad ku jirto.</p><p class="final-bold">Dhalasho Wacan, Rayan! ❤️🎂👑</p><p>Waxaan kuu rajaynayaa sannad ay ka buuxaan waxyaabo qurux badan, fursado wanaagsan iyo xusuuso aad mar kasta ku faraxdo.</p></div>
+        <button class="button button-gold" id="final-button">Fur Farriintii Ugu Dambaysay 💌</button>
+        <div class="final-reveal" id="final-reveal" hidden><div class="big-heart">♥</div><p>Rayan ❤️ — Dhalashadaadu waa munaasabad qurux badan oo mudan in la xuso. Waxaan kuu rajaynayaa farxad maanta iyo maalmaha soo socda oo dhan. 🌹</p></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="back-top" href="#home" aria-label="Ku noqo korka">↑</a><p>Made with love, for Rayan ❤️ <span>|</span> October 28 🌹</p><button class="replay-hero" id="replay-hero">Dib u daawo bilowga ↺</button></footer>
+
+  <audio id="background-music" src="audio/romantic-music.mp3" preload="none" loop></audio>
+  <dialog class="lightbox" id="lightbox" aria-label="Sawir weyn"><button class="lightbox-close" id="lightbox-close" aria-label="Xir">×</button><button class="lightbox-arrow prev" id="lightbox-prev" aria-label="Sawirkii hore">←</button><div class="lightbox-content" id="lightbox-content"></div><button class="lightbox-arrow next" id="lightbox-next" aria-label="Sawirka xiga">→</button><p id="lightbox-caption"></p></dialog>
+  <div class="celebration-layer" id="celebration-layer" aria-hidden="true"></div>
+</body>
+</html>
